@@ -5,11 +5,15 @@
   display:none;
 }
 
+#wrapper {
+  text-align: center;
+}
+
 /* Main Nav */
 #heroImg {
   background-color: black;
   min-height: 500px;
-  margin: 25px 21px;
+  margin: 25px 21px 40px 21px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,16 +23,44 @@
 #mainNav {
 	margin: 0 auto;
   padding: 40px;
-  width: 772px;
-  height: 85px;
+  list-style: none;
 }
 
 .nav {
   background-color: #333;
   text-align: center;
-  color: white;
-	margin: 0 auto;
+  color: #333;
+  margin: 0 auto;
+  display: flex;
+  width: 772px;
+  height: 85px;
 }
 
+ul {
+  list-style-type: none;
+  background-color: #333;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li a {
+  display: block;
+  color: #333;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 /* End Main Nav */
+
+/* Start Content */
+
+.mainContainer {
+  margin: 40px 20px;
+  width: 1315px;
+  height: 560px;
+  display: inline-block;
+  background-color: black;
+}
+/* End Main Content */
 
