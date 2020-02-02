@@ -1,1 +1,2 @@
-# hodges_k_scaffold
+# Wedbsite Scaffold
+## Katie Hodges
