@@ -11,9 +11,9 @@
 
 /* Main Nav */
 #heroImg {
-  background-color: black;
   min-height: 500px;
   margin: 25px 21px 40px 21px;
+  background-color: black;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -53,14 +53,33 @@ li a {
 }
 /* End Main Nav */
 
-/* Start Content */
-
+/* Start Main Content for Index */
 .mainContainer {
-  margin: 40px 20px;
+  margin: 40px 20px 10px 20px;
   width: 1315px;
-  height: 560px;
+  height: 1160px;
   display: inline-block;
-  background-color: black;
+  flex-wrap: wrap;
+  background-color:black;
 }
 /* End Main Content */
 
+/* Start Promo Images Beer page */
+.promoImg {
+  width: 650px;
+  height:500px;
+  margin: 40px 30px 10px 10px;
+  display: inline-block;
+  background-color: black;
+}
+/* End Promo Images */
+
+/* Start Footer */
+.footer {
+  margin: 25px 21px 40px 21px; 
+  width: 1430px;
+  height: 150px;
+  display: inline-block;
+  background-color: black;
+}
+/* End Footer */
